@@ -1,0 +1,15 @@
+// lldb debug
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "LLDB Debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/main",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build"
+        }
+    ]
+}
